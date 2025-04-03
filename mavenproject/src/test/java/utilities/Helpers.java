@@ -42,8 +42,9 @@ public class Helpers {
 		
 	}
 	
-	public static void CloseLaunchers() {
+	public static void CloseLaunchers() throws InterruptedException {
 		
+		Thread.sleep(1500);
 		d.quit();
 		
 	}

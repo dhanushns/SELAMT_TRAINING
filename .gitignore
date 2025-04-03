@@ -1,6 +1,5 @@
 .metadata/
 */test-output
 */target
-*/.classpath
 */bin/
-*/.settings/
+*/.classpath
