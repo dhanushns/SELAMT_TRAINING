@@ -6,7 +6,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 @Listeners(ListenersClass.class)
-public class ListebersExample {
+public class ListenersExample {
 	
 	@Test
 	public void test1() {

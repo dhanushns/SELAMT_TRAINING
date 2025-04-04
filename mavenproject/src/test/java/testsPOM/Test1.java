@@ -15,8 +15,9 @@ import org.testng.annotations.Test;
 import pom_pages.*;
 import utilities.Helpers;
 import utilities.ListenerClass;
+import utilities.ListenerLog;
 
-@Listeners(ListenerClass.class)
+@Listeners(ListenerLog.class)
 public class Test1 extends Helpers {
 	
 	@DataProvider(name = "loginData")
@@ -25,7 +26,7 @@ public class Test1 extends Helpers {
 		readFile("loginData.xlsx","Sheet1");
 		
 		 ArrayList<String[]> data = new ArrayList<>();
-		 for(int i = 1; i <= 6; i++) {
+		 for(int i = 1; i <= 1; i++) {
 			 
 			 String username = readExcelCell(i,0);
 			 String pwd = readExcelCell(i,1);

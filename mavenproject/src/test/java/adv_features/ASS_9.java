@@ -19,9 +19,11 @@ public class ASS_9 extends Helpers{
 		Actions action = new Actions(d);
 		action.keyDown(Keys.SHIFT).perform();
 		action.sendKeys(userName, "username").perform();
+		action.keyUp(Keys.SHIFT).perform();
+		action.sendKeys(userName, " username").perform();
 		
 		
-		//CloseLaunchers();
+		CloseLaunchers();
 		
 	}
 
